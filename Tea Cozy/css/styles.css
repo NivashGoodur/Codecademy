@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: helvetica;
+}
+header{
+    margin: 0;
+}
+
+body {
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #4f1e1b;
+}
+.menu{
+    display: flex;
+
+}
+.menu li{
+    padding: 25px;
+    list-style-type: none;
+}
+#logo{
+    height: 50px;
+    margin-top: 25px;
+    margin-inline-end: auto;
+}
+.menu li a{
+    color: white;
+    font-size: large;
+    font-size: 25px;
+    text-decoration: none;
+}
+.hr1{
+    border: 1px solid white;
+    margin: 0;
+}
+#banner{
+   position: relative;
+   width: 100%;
+   margin: auto;
+}
+#banner img{
+    display: block;
+    margin: auto;
+}
+
+.text-banner{
+    position: absolute;
+    top: 40%;
+    background-color: #A52A2A;
+    text-align: center;
+    width: 1200px;
+    left: 18.5%;
+    font-size: larger;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.container1>article img{
+    margin: 20px;
+}
+#articles{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 7em; /* ancre non cachée par le header */
+    margin-top: -7em;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.container2>article img{
+    margin: 20px;
+}
+.banner-locations{
+    margin: auto;
+    display: block;
+}
+.locations-articles{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+.flex-locations{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -750px;
+}
+.title-locations{
+    text-align: center;
+    position: relative;
+    top: -750px;
+    font-size: 55px;
+}
+#section2{
+    height: 850px;
+    padding-top: 7em; /* ancre non cachée par le header */
+    margin-top: -7em;
+}
+footer{
+    text-align: center;
+}
+.copyright-footer{
+    text-align: start;
+}
+p.copyright-footer{
+    margin: 10px;
+}
